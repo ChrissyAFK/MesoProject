@@ -93,8 +93,12 @@ public class calc {
         double root1, root2;
         root1 = (d > 0) ? (-b + Math.sqrt(d)) / (2 * a) : (d == 0) ? -b / (2 * a) : 0;
         root2 = (d > 0) ? (-b - Math.sqrt(d)) / (2 * a) : 0;
-        System.out.println("Root 1: " + Math.round(root1*100)/100);
-        System.out.println("Root 2: " + Math.round(root2*100)/100);
+        if (r1 == 0 && r2 == 0) {
+            System.out.println("No real roots!");
+            return;
+        }
+        System.out.println("Root 1: " + r1);
+        System.out.println("Root 2: " + r2);
     }
     public static void arithmeticSum() {
         Scanner scanner = new Scanner(System.in);
