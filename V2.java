@@ -93,6 +93,8 @@ public class calc {
         double root1, root2;
         root1 = (d > 0) ? (-b + Math.sqrt(d)) / (2 * a) : (d == 0) ? -b / (2 * a) : 0;
         root2 = (d > 0) ? (-b - Math.sqrt(d)) / (2 * a) : 0;
+        float r1 = (float)Math.round(root1*100)/100;
+        float r2 = (float)Math.round(root2*100)/100;
         if (r1 == 0 && r2 == 0) {
             System.out.println("No real roots!");
             return;
