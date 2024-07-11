@@ -10,7 +10,8 @@ The result of the calculation will be printed onto the screen for the user to se
 “Y” will result in the code restarting, prompting for the formula, and “N” will result in the code exiting. 
 
 Plan:
-https://sd41-my.sharepoint.com/:wb:/g/personal/1223515_edu_burnabyschools_ca/ESMvnk8KntZOtUafSwwZP_QB4F2lkkOv9uZUeTstA1Hbew?e=RQWJ0k 
+https://github.com/ChrissyAFK/MesoProject 
+in: Flowchart.png
 
 Version 1 code: 
 https://github.com/ChrissyAFK/MesoProject 
