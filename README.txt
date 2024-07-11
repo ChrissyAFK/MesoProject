@@ -19,5 +19,10 @@ in: V1.java
 Feedback:
 Some of the bugs that the user encountered in V1 was when inputting a wrong character into the prompts asking for number values, 
 they would get an error message causing the program to quit. I was also told that some of the outputs were not that clear due to the large decimals. 
+In addition to these points, I was inclined to add another formula into the calculator as users complained about lack of functionality. 
+feedback givers:
+Krish, Edwin, Arnav
 
-
+Version 2 code:
+https://github.com/ChrissyAFK/MesoProject 
+in: V2.java
