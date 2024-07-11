@@ -12,8 +12,8 @@ public class calc {
             formula = scanner.nextInt();
         } catch (InputMismatchException e) {
             System.out.println("Invalid input! Please enter a valid integer.");
-            scanner.nextLine(); // Clear the input buffer
-            continue; // Restart the loop
+            scanner.nextLine();
+            continue;
         }
         
         scanner.nextLine();
@@ -134,8 +134,8 @@ public class calc {
             formula = scanner.nextInt();
         } catch (InputMismatchException e) {
             System.out.println("Invalid input! Please enter a valid integer.");
-            scanner.nextLine(); // Clear the input buffer
-            return; // Exit the method
+            scanner.nextLine();
+            return;
         }
         
         scanner.nextLine();
@@ -171,8 +171,8 @@ public class calc {
             base = scanner.nextDouble();
         } catch (InputMismatchException e) {
             System.out.println("Invalid input! Please enter a valid number.");
-            scanner.nextLine(); // Clear the input buffer
-            return; // Exit the method
+            scanner.nextLine();
+            return; 
         }
         scanner.nextLine();
         System.out.print("Enter the height of the triangle: ");
@@ -181,8 +181,8 @@ public class calc {
             height = scanner.nextDouble();
         } catch (InputMismatchException e) {
             System.out.println("Invalid input! Please enter a valid number.");
-            scanner.nextLine(); // Clear the input buffer
-            return; // Exit the method
+            scanner.nextLine();
+            return;
         }
         scanner.nextLine();
         double area = 0.5 * base * height;
@@ -197,8 +197,8 @@ public class calc {
             radius = scanner.nextDouble();
         } catch (InputMismatchException e) {
             System.out.println("Invalid input! Please enter a valid number.");
-            scanner.nextLine(); // Clear the input buffer
-            return; // Exit the method
+            scanner.nextLine();
+            return;
         }
         scanner.nextLine();
         double volume = (4.0 / 3.0) * Math.PI * Math.pow(radius, 3);
