@@ -1,7 +1,7 @@
 General Formula Calculator
 
 Context:
-The purpose of this program is to provide users with a tool to easily calculate interest, quadratic equations, or mean quickly and efficiently. 
+The purpose of this program is to provide users with a tool to easily calculate interest, quadratic equations, mean, or geometric equations quickly and efficiently. 
 This is important when solving higher level problems where you can save time by using a calculator instead of manually calculating the outcome which may introduce wrong answers.
 
 Description:
